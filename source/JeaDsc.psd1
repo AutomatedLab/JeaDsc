@@ -20,6 +20,8 @@
         'ConvertTo-Expression'
     )
 
+    DscResourcesToExport = @()
+
     PrivateData          = @{
 
         PSData = @{
