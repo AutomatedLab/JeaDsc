@@ -31,6 +31,7 @@ Based on [style guidelines](https://dsccommunity.org/styleguidelines/localizatio
   in the future.
 - The HQRM tests was run twice in the pipeline, now they are run just once.
 - Updated the README.md with new section and updated the links.
+- Removed unnecessary entries in module manifest because of this [bug in PowerShell](https://github.com/PowerShell/PowerShell/issues/16750).
 
 ### Removed
 
