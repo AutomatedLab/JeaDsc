@@ -16,9 +16,15 @@
 
     PowerShellVersion    = '5.1'
 
+    NestedModules        = @()
+
     FunctionsToExport    = @(
         'ConvertTo-Expression'
     )
+
+    VariablesToExport    = @()
+
+    AliasesToExport      = @()
 
     DscResourcesToExport = @()
 
