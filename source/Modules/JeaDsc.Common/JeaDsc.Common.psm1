@@ -155,11 +155,6 @@ function Sync-Parameter
     $Parameters
 }
 
-function ConvertTo-Expression
-{
-    'TOBEREPACED'
-}
-
 $modulePath = Join-Path -Path (Split-Path -Path (Split-Path -Path $PSScriptRoot -Parent) -Parent) -ChildPath Modules
 Import-Module -Name (Join-Path -Path $modulePath -ChildPath DscResource.Common)
 
