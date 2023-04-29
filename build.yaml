@@ -30,6 +30,7 @@ BuildWorkflow:
 
   build:
     - Clean
+    - InjectScriptCode
     - Build_Module_ModuleBuilder
     - Build_NestedModules_ModuleBuilder
     - Create_changelog_release_output
@@ -79,8 +80,10 @@ DscTest:
   Tag:
   ExcludeSourceFile:
     - output
+    - Modules/ConvertToExpression
   ExcludeModuleFile:
     - Modules/DscResource.Common
+    - Modules/ConvertToExpression
 
 ModuleBuildTasks:
   Sampler:
