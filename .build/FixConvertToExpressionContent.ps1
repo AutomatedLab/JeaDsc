@@ -9,7 +9,7 @@ task FixConvertToExpressionContent {
     if (-not $fileContent.StartsWith('function'))
     {
         $fileContent = $fileContent.Insert(0, "function ConvertTo-Expression {`n")
-        $fileContent += "'}'`n"
+        $fileContent += "}`n"
     }
 
     $fileContent | Set-Content -Path $filePath -Encoding UTF8
